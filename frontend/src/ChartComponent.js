@@ -45,11 +45,39 @@ const ChartComponent = () => {
         }
     }
 
+    const renderChart = (data) => {
+        const ctx = document.getElementById('myChart').getContext('2d');
 
+        //Creating a new Chart instance
+        new Chart(ctx, {
+            // Setting the type of chart
+            type: 'bar',
+            data: {
+                // Using the keys of the mean object as labels
+                labels: Object.keys(data.mean),
+                datasets: [{
+                    label: 'Mean', 
+                    data: Object.values(data.mean),
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        })
+    }
     return (
         <div>
             <h1>Data Analytics Dashboard</h1>
+            {/* File input for selecting the file */}
             <input type="file" onChange={handleFileChange} />
+            {/* Button to upload the file and remove button while uploading*/}
             <button onClick={handleUpload}>
                 {isLoading ? 'Uploading...' : 'Upload'}
             </button>
@@ -57,3 +85,5 @@ const ChartComponent = () => {
     )
 
     }
+
+    export default ChartComponent;
