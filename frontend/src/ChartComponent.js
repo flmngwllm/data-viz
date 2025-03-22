@@ -25,8 +25,35 @@ const ChartComponent = () => {
         const formData = new FormData();
         formData.append('file', file)
 
+        try{
+            // Sending the File to the backend via POST request
+            const res = await axios.post('http://127.0.0.1:8000/api/upload/', formData, {
+                headers: {
+                    'Content-Type': 'multipart/form-data' //Setting the content type for file upload
+                }
+            })
+
+            setData(res.data);
+
+            renderChart(res.data);
+        } catch(error){
+            // If there is an error, it will log during upload process
+            console.error('There was an error while uploading the file', error)
+        } finally{
+            //Setting the state back to false after the upload is completed
+            setIsLoading(false)
+        }
     }
 
 
+    return (
+        <div>
+            <h1>Data Analytics Dashboard</h1>
+            <input type="file" onChange={handleFileChange} />
+            <button onClick={handleUpload}>
+                {isLoading ? 'Uploading...' : 'Upload'}
+            </button>
+        </div>
+    )
 
     }
