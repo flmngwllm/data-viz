@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 from .models import Dataset
 
-class UploadDataset(APIView):
+class UploadDatasetView(APIView):
     parser_classes = (MultiPartParser)
 
     def post(self, request, *args, **kwargs):
