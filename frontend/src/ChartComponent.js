@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Chart} from 'chart.js';
+import { Chart, registerables } from 'chart.js';
 import axios from 'axios';
 
+Chart.register(...registerables);
 const ChartComponent = () => {
-    const [data, setData] = useState()
-    const [file, setFile] = useState()
+    const [data, setData] = useState(null)
+    const [file, setFile] = useState(null)
     const [isLoading, setIsLoading] = useState(false)
 
     //Function to handle file selection
@@ -14,36 +15,33 @@ const ChartComponent = () => {
 
     //Function to handle file upload
     const handleUpload = async () => {
-        if(!file){
-            alert('Please select a file')
-            return;
+        if (!file) {
+          alert("Please select a file first!");
+          return;
         }
-        //Set the state to true while uploading
-        setIsLoading(true)
-
-        //Create a FormData object to send the file
+      
+        console.log("Selected file:", file); // Debugging
+      
+        setIsLoading(true);
         const formData = new FormData();
-        formData.append('file', file)
-
-        try{
-            // Sending the File to the backend via POST request
-            const res = await axios.post('http://127.0.0.1:8000/api/upload/', formData, {
-                headers: {
-                    'Content-Type': 'multipart/form-data' //Setting the content type for file upload
-                }
-            })
-
-            setData(res.data);
-
-            renderChart(res.data);
-        } catch(error){
-            // If there is an error, it will log during upload process
-            console.error('There was an error while uploading the file', error)
-        } finally{
-            //Setting the state back to false after the upload is completed
-            setIsLoading(false)
+        formData.append('file', file);
+      
+        try {
+          console.log("Sending file to backend..."); // Debugging
+          const response = await axios.post('http://127.0.0.1:8000/api/upload/', formData, {
+            headers: {
+              'Content-Type': 'multipart/form-data',
+            },
+          });
+          console.log("Response from backend:", response.data); // Debugging
+          setData(response.data);
+          renderChart(response.data);
+        } catch (error) {
+          console.error("There was an error uploading the file!", error.response ? error.response.data : error.message); // Debugging
+        } finally {
+          setIsLoading(false);
         }
-    }
+      };
 
     const renderChart = (data) => {
         const ctx = document.getElementById('myChart').getContext('2d');
@@ -76,11 +74,13 @@ const ChartComponent = () => {
         <div>
             <h1>Data Analytics Dashboard</h1>
             {/* File input for selecting the file */}
+            <p>Data: {JSON.stringify(data)}</p> {/* Debugging output */}
             <input type="file" onChange={handleFileChange} />
             {/* Button to upload the file and remove button while uploading*/}
             <button onClick={handleUpload}>
                 {isLoading ? 'Uploading...' : 'Upload'}
             </button>
+            <canvas id="myChart" width="400" height="200"></canvas>
         </div>
     )
 

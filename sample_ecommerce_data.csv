@@ -1,0 +1,101 @@
+Order ID,Customer Name,Product,Category,Quantity,Price per Unit,Total Price,Order Date,Order Status
+ORD-1001,Hannah Adams,Standing Desk,Office Supplies,1,132.81,132.81,2024-11-15,Cancelled
+ORD-1002,Alice Smith,Bluetooth Headphones,Electronics,3,202.73,608.19,2025-01-01,Pending
+ORD-1003,Alice Smith,Desk Lamp,Office Supplies,4,43.56,174.24,2024-11-11,Pending
+ORD-1004,Diana Ross,Coffee Maker,Home Appliances,1,36.24,36.24,2025-02-11,Pending
+ORD-1005,Hannah Adams,Notebook,Stationery,4,190.46,761.84,2024-09-30,Pending
+ORD-1006,Alice Smith,Wireless Mouse,Electronics,4,124.23,496.92,2024-11-20,Pending
+ORD-1007,Charlie Lee,Desk Lamp,Office Supplies,3,73.37,220.11,2025-03-10,Delivered
+ORD-1008,Fiona Green,Standing Desk,Office Supplies,1,288.57,288.57,2025-01-22,Cancelled
+ORD-1009,Bob Johnson,Running Shoes,Fitness,3,193.62,580.86,2025-03-08,Pending
+ORD-1010,Fiona Green,Wireless Mouse,Electronics,1,34.71,34.71,2024-12-03,Shipped
+ORD-1011,Diana Ross,Bluetooth Headphones,Electronics,4,117.42,469.68,2025-02-17,Cancelled
+ORD-1012,Bob Johnson,Desk Lamp,Office Supplies,4,255.56,1022.24,2025-02-15,Shipped
+ORD-1013,George Hall,Coffee Maker,Home Appliances,2,228.04,456.08,2024-10-27,Pending
+ORD-1014,Diana Ross,Desk Lamp,Office Supplies,3,240.55,721.65,2025-02-07,Delivered
+ORD-1015,Bob Johnson,Running Shoes,Fitness,5,145.92,729.6,2024-12-23,Delivered
+ORD-1016,Hannah Adams,Yoga Mat,Fitness,4,227.92,911.68,2024-11-09,Cancelled
+ORD-1017,Evan Wright,Desk Lamp,Office Supplies,1,254.43,254.43,2024-10-22,Shipped
+ORD-1018,Fiona Green,Standing Desk,Office Supplies,2,127.93,255.86,2024-11-06,Pending
+ORD-1019,Hannah Adams,Desk Lamp,Office Supplies,2,20.29,40.58,2024-11-06,Delivered
+ORD-1020,Fiona Green,Running Shoes,Fitness,2,223.27,446.54,2025-02-12,Delivered
+ORD-1021,Diana Ross,Notebook,Stationery,2,278.15,556.3,2024-11-03,Shipped
+ORD-1022,Alice Smith,Water Bottle,Fitness,1,124.05,124.05,2025-02-05,Delivered
+ORD-1023,George Hall,Coffee Maker,Home Appliances,3,109.68,329.04,2025-03-01,Cancelled
+ORD-1024,Hannah Adams,Desk Lamp,Office Supplies,3,65.45,196.35,2024-10-26,Cancelled
+ORD-1025,George Hall,Desk Lamp,Office Supplies,3,163.8,491.4,2024-11-29,Shipped
+ORD-1026,George Hall,Running Shoes,Fitness,5,59.01,295.05,2025-03-14,Pending
+ORD-1027,Bob Johnson,LED Monitor,Electronics,1,140.3,140.3,2024-11-02,Cancelled
+ORD-1028,Fiona Green,Coffee Maker,Home Appliances,2,13.6,27.2,2025-01-06,Cancelled
+ORD-1029,George Hall,Notebook,Stationery,5,169.11,845.55,2025-02-02,Shipped
+ORD-1030,George Hall,Coffee Maker,Home Appliances,5,224.35,1121.75,2025-03-03,Shipped
+ORD-1031,Evan Wright,LED Monitor,Electronics,3,73.0,219.0,2024-10-20,Shipped
+ORD-1032,Bob Johnson,Coffee Maker,Home Appliances,4,165.06,660.24,2024-11-07,Pending
+ORD-1033,Evan Wright,Yoga Mat,Fitness,2,86.85,173.7,2024-12-15,Shipped
+ORD-1034,Diana Ross,Desk Lamp,Office Supplies,5,160.75,803.75,2025-02-23,Shipped
+ORD-1035,Fiona Green,Yoga Mat,Fitness,4,290.53,1162.12,2024-11-01,Delivered
+ORD-1036,Charlie Lee,Wireless Mouse,Electronics,2,241.66,483.32,2025-01-02,Cancelled
+ORD-1037,Charlie Lee,Coffee Maker,Home Appliances,4,84.12,336.48,2024-12-23,Delivered
+ORD-1038,Bob Johnson,Notebook,Stationery,4,62.99,251.96,2025-01-28,Shipped
+ORD-1039,Diana Ross,LED Monitor,Electronics,1,289.68,289.68,2025-01-20,Pending
+ORD-1040,Hannah Adams,Desk Lamp,Office Supplies,5,256.56,1282.8,2025-02-04,Shipped
+ORD-1041,Diana Ross,Water Bottle,Fitness,1,288.28,288.28,2024-12-13,Pending
+ORD-1042,Charlie Lee,Water Bottle,Fitness,2,214.11,428.22,2025-03-01,Cancelled
+ORD-1043,Evan Wright,LED Monitor,Electronics,3,273.11,819.33,2025-02-04,Shipped
+ORD-1044,Alice Smith,Water Bottle,Fitness,1,108.88,108.88,2024-12-25,Delivered
+ORD-1045,Fiona Green,Desk Lamp,Office Supplies,5,78.22,391.1,2024-12-21,Shipped
+ORD-1046,Fiona Green,Running Shoes,Fitness,2,228.25,456.5,2025-02-07,Cancelled
+ORD-1047,Diana Ross,Desk Lamp,Office Supplies,1,17.96,17.96,2024-11-09,Shipped
+ORD-1048,Bob Johnson,Standing Desk,Office Supplies,4,46.53,186.12,2025-03-01,Delivered
+ORD-1049,Bob Johnson,Notebook,Stationery,4,294.9,1179.6,2025-01-29,Cancelled
+ORD-1050,Diana Ross,Water Bottle,Fitness,1,154.13,154.13,2024-11-24,Pending
+ORD-1051,Bob Johnson,Wireless Mouse,Electronics,5,162.31,811.55,2024-12-19,Pending
+ORD-1052,Charlie Lee,Notebook,Stationery,5,80.16,400.8,2024-10-01,Shipped
+ORD-1053,Charlie Lee,Desk Lamp,Office Supplies,4,161.05,644.2,2025-01-09,Pending
+ORD-1054,Diana Ross,Yoga Mat,Fitness,4,151.36,605.44,2025-03-22,Pending
+ORD-1055,Hannah Adams,Bluetooth Headphones,Electronics,2,80.28,160.56,2025-01-21,Pending
+ORD-1056,Alice Smith,Wireless Mouse,Electronics,2,250.57,501.14,2025-02-01,Pending
+ORD-1057,Fiona Green,LED Monitor,Electronics,1,195.72,195.72,2024-12-31,Pending
+ORD-1058,Diana Ross,Desk Lamp,Office Supplies,3,81.84,245.52,2025-03-21,Shipped
+ORD-1059,Hannah Adams,Desk Lamp,Office Supplies,1,172.77,172.77,2024-11-06,Shipped
+ORD-1060,Charlie Lee,Yoga Mat,Fitness,1,125.44,125.44,2024-11-16,Cancelled
+ORD-1061,Diana Ross,Standing Desk,Office Supplies,4,25.05,100.2,2025-02-23,Cancelled
+ORD-1062,Hannah Adams,Bluetooth Headphones,Electronics,5,121.6,608.0,2024-11-28,Shipped
+ORD-1063,George Hall,Wireless Mouse,Electronics,5,170.31,851.55,2025-03-08,Cancelled
+ORD-1064,Evan Wright,Water Bottle,Fitness,2,148.12,296.24,2024-11-02,Delivered
+ORD-1065,Diana Ross,Yoga Mat,Fitness,3,87.88,263.64,2025-03-03,Delivered
+ORD-1066,Alice Smith,Standing Desk,Office Supplies,2,82.48,164.96,2025-03-06,Shipped
+ORD-1067,Charlie Lee,Wireless Mouse,Electronics,3,28.28,84.84,2025-03-19,Pending
+ORD-1068,Alice Smith,Yoga Mat,Fitness,5,143.51,717.55,2024-10-02,Pending
+ORD-1069,Diana Ross,Water Bottle,Fitness,1,130.63,130.63,2025-02-27,Shipped
+ORD-1070,Bob Johnson,Coffee Maker,Home Appliances,2,36.3,72.6,2025-03-23,Cancelled
+ORD-1071,Diana Ross,Water Bottle,Fitness,1,236.31,236.31,2025-01-20,Shipped
+ORD-1072,Alice Smith,Yoga Mat,Fitness,5,137.96,689.8,2025-03-20,Delivered
+ORD-1073,Diana Ross,Coffee Maker,Home Appliances,1,59.34,59.34,2024-09-30,Pending
+ORD-1074,Alice Smith,Running Shoes,Fitness,4,256.08,1024.32,2025-01-10,Pending
+ORD-1075,George Hall,Running Shoes,Fitness,4,233.67,934.68,2025-01-27,Delivered
+ORD-1076,George Hall,LED Monitor,Electronics,2,299.43,598.86,2025-03-16,Shipped
+ORD-1077,Evan Wright,Desk Lamp,Office Supplies,5,243.56,1217.8,2025-01-05,Cancelled
+ORD-1078,Fiona Green,Notebook,Stationery,1,275.97,275.97,2025-03-14,Delivered
+ORD-1079,Diana Ross,Notebook,Stationery,3,261.56,784.68,2024-11-26,Shipped
+ORD-1080,Fiona Green,Desk Lamp,Office Supplies,4,270.87,1083.48,2024-11-26,Cancelled
+ORD-1081,Charlie Lee,Running Shoes,Fitness,5,189.01,945.05,2024-12-06,Cancelled
+ORD-1082,George Hall,Coffee Maker,Home Appliances,3,69.15,207.45,2025-03-20,Pending
+ORD-1083,Alice Smith,Standing Desk,Office Supplies,4,10.88,43.52,2024-09-26,Pending
+ORD-1084,George Hall,Coffee Maker,Home Appliances,5,229.25,1146.25,2024-09-28,Pending
+ORD-1085,Charlie Lee,Bluetooth Headphones,Electronics,3,193.87,581.61,2025-01-18,Cancelled
+ORD-1086,Hannah Adams,Notebook,Stationery,4,99.89,399.56,2024-11-03,Pending
+ORD-1087,Hannah Adams,Yoga Mat,Fitness,4,95.25,381.0,2025-01-16,Shipped
+ORD-1088,Hannah Adams,Standing Desk,Office Supplies,4,83.08,332.32,2024-12-15,Pending
+ORD-1089,Alice Smith,Yoga Mat,Fitness,3,263.89,791.67,2024-11-18,Cancelled
+ORD-1090,George Hall,Running Shoes,Fitness,3,269.53,808.59,2024-11-16,Cancelled
+ORD-1091,Evan Wright,Desk Lamp,Office Supplies,1,292.17,292.17,2024-10-17,Cancelled
+ORD-1092,Fiona Green,Desk Lamp,Office Supplies,4,203.85,815.4,2025-02-10,Cancelled
+ORD-1093,Bob Johnson,Standing Desk,Office Supplies,3,261.73,785.19,2024-10-19,Shipped
+ORD-1094,Hannah Adams,Desk Lamp,Office Supplies,5,66.23,331.15,2024-10-13,Shipped
+ORD-1095,Fiona Green,Coffee Maker,Home Appliances,5,21.46,107.3,2025-03-14,Pending
+ORD-1096,Evan Wright,Desk Lamp,Office Supplies,2,182.95,365.9,2024-09-28,Cancelled
+ORD-1097,Fiona Green,Standing Desk,Office Supplies,1,270.92,270.92,2025-01-08,Shipped
+ORD-1098,Diana Ross,Notebook,Stationery,4,228.86,915.44,2024-11-26,Delivered
+ORD-1099,Alice Smith,Coffee Maker,Home Appliances,1,176.7,176.7,2024-11-24,Delivered
+ORD-1100,Fiona Green,Water Bottle,Fitness,4,225.02,900.08,2024-10-06,Delivered
